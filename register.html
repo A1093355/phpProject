@@ -1,0 +1,130 @@
+<head>
+    <style>
+        main{float: left; width: 100%; height: 100%; text-align: center; background: lightyellow; }
+    </style>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<nav class="navbar navbar-light navbar-expand-md" style="background-color:#e3f2fd">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img src="cocotree.png" width="35px" class="d-inline-block align-text-top">墾丁三日遊</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+            <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item active"><a href="#" class="nav-link">行程</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body bgcolor='#FFDD55'>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000" overflow-hidden>
+      <img src="sea.jpg" class="d-block w-100 h-50" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>白沙灣生態保育區</h5>
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000"  overflow-hidden>
+      <img src="food.jpg" class="d-block w-100 h-50" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+            <h5>恆春古城美食</h5>
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000"  overflow-hidden>
+      <img src="seafood.jpg" class="d-block w-100 h-50" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+            <h5>後壁湖海鮮大餐</h5>
+        </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<main>
+<font size="4" color="#2B2B2B" face="微軟正黑體"><br/>
+不知不覺這也許幸福也許悲慘的一年即將結束了，不論今年的你/妳過得順不順遂，適時停下腳步才能重新發覺身邊種種美好。<br>
+今年的新年新希望就由湛藍的大海一同見證吧!
+往下查看行程安排，填寫報名資料，我們不見不散~~~~
+<li><font size="6">活動行程:<br/></font>
+<div class="table-responsive">
+<table class="table table-striped align-middle w-50 h-50" align="center">
+<tr align="center"><td>   </td>
+    <td>12/31</td>
+    <td>1/1</td>
+    <td>1/2</td></tr>
+<tr align="center"><td>6:00~7:00</td>
+    <td>             </td>
+    <td>龍磐公園日出</td>
+    <td>             </td>
+</tr>
+<tr align="center"><td>9:00~11:30</td>
+    <td>從高雄出發</td>
+    <td>後壁湖畔</td>
+    <td>水蛙窟大草原</td></tr>
+<tr align="center"><td>11:30~13:00</td>
+    <td>興丼壽司</td>
+    <td>邱家海鮮餐廳</td>
+    <td>綠豆蒜</td></tr>
+<tr align="center"><td>13:00~15:00</td>
+    <td>恆春古城</td>
+    <td>台電展示館</td>
+    <td>自由活動</td></tr>
+<tr align="center"><td>15:00~17:00</td>
+    <td>鹿境</td>
+    <td>白沙灣生態保育區</td>
+    <td>四重溪溫泉季</td></tr>
+<tr align="center"><td>17:00~18:00</td>
+    <td>關山夕陽</td>
+    <td>自由活動</td>
+    <td>自由活動</td></tr>
+<tr align="center"><td>18:00~20:00</td>
+    <td>墾丁大街</td>
+    <td>鈕扣倉庫</td>
+    <td>回家摟~~</td></tr>
+</table></div>
+</font>
+</main>
+<hr>
+
+<hr>
+<form name="registration" action="rinfo.php" method="get">
+<li>報名表單:<br/>
+姓名: <input ytpe="text" name="name" size="10"><br/>
+學號: <input id="id" size="10"><br/>
+電子信箱:<input type="email" size="10"><br/>
+手機號碼: <input phone="phone" size="10"><br/>
+性別:<input type="radio" name="sex"
+	value="male" checked>男性
+<input type="radio" name="sex"
+	value="female">女性<br>
+衣服尺碼:<select name="select_size" size="1">
+<option selected>S
+<option>M
+<option>L
+<option>XL
+</select>
+<h3><font size="4">
+欲報名日期:
+</font>
+<input type="checkbox">12/24
+<input type="checkbox">12/25
+<h3><font size="4">
+飲食取向:
+</font>
+<input type="checkbox">葷食
+<input type="checkbox">蛋奶素
+<input type="checkbox">全素
+<input type="checkbox">海鮮
+<input type="submit" align="center" value="送出">
+</form>
+
+</body>
+</html>
